@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -7,6 +8,7 @@ namespace server.Models.Entities
     public class Product
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ProductId { get; set; }
 
         [Required, MaxLength(150)]
@@ -23,7 +25,7 @@ namespace server.Models.Entities
         public decimal Price { get; set; }
 
         [Column(TypeName = "decimal(18,2)")]
-        public decimal? DiscountPrice { get; set; }  
+        public decimal? DiscountPrice { get; set; }
 
         [Required]
         public int Stock { get; set; }
@@ -35,12 +37,17 @@ namespace server.Models.Entities
         public string Category { get; set; }
 
         [MaxLength(255)]
-        public string ImageUrl { get; set; }  
+        public string ImageUrl { get; set; }
 
-        public bool IsActive { get; set; } = true; 
+        public bool IsActive { get; set; } = true;
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         public DateTime? UpdatedAt { get; set; }
+
+        [Range(0, 5)]
+        public double? AverageRating { get; set; }  
+
+        public int? RatingCount { get; set; }  
     }
 }

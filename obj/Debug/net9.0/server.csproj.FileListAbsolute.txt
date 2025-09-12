@@ -201,3 +201,4 @@ C:\Users\Sahil Karanje\Desktop\DOT_NET Projects\Ecommerce\server\bin\Debug\net9.
 C:\Users\Sahil Karanje\Desktop\DOT_NET Projects\Ecommerce\server\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Sahil Karanje\Desktop\DOT_NET Projects\Ecommerce\server\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Sahil Karanje\Desktop\DOT_NET Projects\Ecommerce\server\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sahil Karanje\Desktop\DOT_NET Projects\Ecommerce\server\obj\Debug\net9.0\server.sourcelink.json

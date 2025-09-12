@@ -1,13 +1,14 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using server.Config;
+using server.Dtos;
 using server.Models.Entities;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using server.Dtos;
-using server.Config;
-using Microsoft.Extensions.Options;
 
 namespace server.Controllers
 {
@@ -71,10 +72,102 @@ namespace server.Controllers
                 signingCredentials: creds
             );
 
-            return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
+            return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token), user });
         }
 
-        
+        [Authorize]
+        [HttpGet("profile")]
+        public async Task<IActionResult> GetProfile()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var email = User.FindFirstValue(ClaimTypes.Email);
+
+            var user = await _userManager.FindByIdAsync(userId);
+
+            return Ok(new
+            {
+                Email = email,
+                UserName = user.UserName,
+                Gender = user.Gender,
+                IsSeller = user.IsSeller,
+                SellerName = user.SellerName,
+                SellingLocation = user.SellingLocation
+            });
+        }
+
+        [Authorize]
+        [HttpGet("address")]
+        public async Task<IActionResult> GetAddress()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var user = await _userManager.FindByIdAsync(userId);
+
+            if (user == null) return NotFound("User not found");
+
+            return Ok(new
+            {
+                Street = user.Street,
+                City = user.City,
+                State = user.State,
+                Zip = user.Zip,
+                Country = user.Country
+            });
+        }
+
+        [Authorize]
+        [HttpPost("address")]
+        public async Task<IActionResult> SaveAddress([FromBody] AddressDto model)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var user = await _userManager.FindByIdAsync(userId);
+
+            if (user == null) return NotFound("User not found");
+
+            user.Street = model.Street;
+            user.City = model.City;
+            user.State = model.State;
+            user.Zip = model.Zip;
+            user.Country = model.Country;
+
+            var result = await _userManager.UpdateAsync(user);
+
+            if (!result.Succeeded)
+                return BadRequest(result.Errors);
+
+            return Ok(new
+            {
+                Street = user.Street,
+                City = user.City,
+                State = user.State,
+                Zip = user.Zip,
+                Country = user.Country
+            });
+        }
+
+        [HttpPut("become-seller")]
+        [Authorize] 
+        public async Task<IActionResult> BecomeSeller([FromBody] BecomeSellerDto dto)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null) return Unauthorized("User not found");
+
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null) return NotFound("User not found");
+
+            user.IsSeller = true;
+            user.SellerName = dto.SellerName;
+            user.SellingLocation = dto.SellerLocation;
+
+            var result = await _userManager.UpdateAsync(user);
+
+            if (!result.Succeeded)
+            {
+                return BadRequest(result.Errors);
+            }
+
+            return Ok(new { message = "User updated as seller successfully", user });
+        }
+
     }
 
 }
