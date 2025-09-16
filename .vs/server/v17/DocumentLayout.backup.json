@@ -11,52 +11,20 @@
       "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\models\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:models\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\migrations\\20250911185038_reviwsadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:migrations\\20250911185038_reviwsadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\dtos\\becomesellerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:dtos\\becomesellerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\models\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:models\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\config\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:config\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\migrations\\20250911061059_updatingusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:migrations\\20250911061059_updatingusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|c:\\users\\sahil karanje\\desktop\\dot_net projects\\ecommerce\\server\\models\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDE9DF0-74AE-4682-9266-2846A071D1C4}|server.csproj|solutionrelative:models\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,55 +34,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Models\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Models\\Entities\\Product.cs",
+              "RelativeToolTip": "Models\\Entities\\Product.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T18:54:54.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20250911185038_reviwsAdded.cs",
-              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Migrations\\20250911185038_reviwsAdded.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250911185038_reviwsAdded.cs",
-              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Migrations\\20250911185038_reviwsAdded.cs",
-              "RelativeToolTip": "Migrations\\20250911185038_reviwsAdded.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T18:50:39.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Models\\Entities\\Review.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Review.cs",
-              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Models\\Entities\\Review.cs",
-              "RelativeToolTip": "Models\\Entities\\Review.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T18:48:43.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Models\\Entities\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Models\\Entities\\ApplicationUser.cs",
-              "RelativeToolTip": "Models\\Entities\\ApplicationUser.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T06:00:59.547Z"
+              "WhenOpened": "2025-09-13T04:52:15.155Z"
             },
             {
               "$type": "Document",
@@ -124,118 +56,58 @@
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwA8AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAIwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T06:20:23.935Z",
+              "WhenOpened": "2025-09-13T04:45:02.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Models\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Models\\Entities\\Product.cs",
-              "RelativeToolTip": "Models\\Entities\\Product.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T05:46:31.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "JwtSettings.cs",
-              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Config\\JwtSettings.cs",
-              "RelativeDocumentMoniker": "Config\\JwtSettings.cs",
-              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Config\\JwtSettings.cs",
-              "RelativeToolTip": "Config\\JwtSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T02:07:46.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAC4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-08T01:21:27.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BecomeSellerDto.cs",
-              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Dtos\\BecomeSellerDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\BecomeSellerDto.cs",
-              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Dtos\\BecomeSellerDto.cs",
-              "RelativeToolTip": "Dtos\\BecomeSellerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T16:56:41.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T01:20:17.597Z"
+              "WhenOpened": "2025-09-13T04:43:26.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAiwJ4AAAA2AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "WishListController.cs",
+              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Controllers\\WishListController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WishListController.cs",
+              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Controllers\\WishListController.cs",
+              "RelativeToolTip": "Controllers\\WishListController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T07:13:56.133Z"
+              "WhenOpened": "2025-09-12T10:02:37.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddressDto.cs",
-              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Dtos\\AddressDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\AddressDto.cs",
-              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Dtos\\AddressDto.cs",
-              "RelativeToolTip": "Dtos\\AddressDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T10:44:04.617Z"
+              "WhenOpened": "2025-09-12T09:58:00.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Dtos\\LoginDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Dtos\\LoginDto.cs",
-              "RelativeToolTip": "Dtos\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Models\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Review.cs",
+              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Models\\Entities\\Review.cs",
+              "RelativeToolTip": "Models\\Entities\\Review.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T07:36:07.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20250911061059_updatingUserModel.cs",
-              "DocumentMoniker": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Migrations\\20250911061059_updatingUserModel.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250911061059_updatingUserModel.cs",
-              "ToolTip": "C:\\Users\\Sahil Karanje\\Desktop\\DOT_NET Projects\\Ecommerce\\server\\Migrations\\20250911061059_updatingUserModel.cs",
-              "RelativeToolTip": "Migrations\\20250911061059_updatingUserModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T06:10:59.465Z"
+              "WhenOpened": "2025-09-12T09:52:01.635Z"
             }
           ]
         }

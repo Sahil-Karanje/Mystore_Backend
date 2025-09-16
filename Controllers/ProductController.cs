@@ -17,10 +17,27 @@ namespace server.Controllers
         }
 
         [HttpPost("addNewProduct")]
-        public async Task<IActionResult> CreateProduct([FromBody] Product product)
+        public async Task<IActionResult> CreateProduct([FromForm] Product product, [FromForm] IFormFile imageFile)
         {
             if (product == null)
                 return BadRequest("Product data is required");
+
+            if (imageFile != null && imageFile.Length > 0)
+            {
+                var uploads = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/ProductImages");
+                if (!Directory.Exists(uploads))
+                    Directory.CreateDirectory(uploads);
+
+                var fileName = Guid.NewGuid() + Path.GetExtension(imageFile.FileName);
+                var filePath = Path.Combine(uploads, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
+
+                product.ImageUrl = $"/ProductImages/{fileName}";
+            }
 
             _context.Products.Add(product);
             await _context.SaveChangesAsync();

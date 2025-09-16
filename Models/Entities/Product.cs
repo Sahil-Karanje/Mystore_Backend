@@ -13,11 +13,7 @@ namespace server.Models.Entities
 
         [Required, MaxLength(150)]
         public string Name { get; set; }
-
-        [MaxLength(500)]
         public string LongDescription { get; set; }
-
-        [MaxLength(250)]
         public string ShortDescription { get; set; }
 
         [Required]

@@ -13,5 +13,6 @@ namespace server.Data
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Review> Reviews { get; set; }
+        public DbSet<WishList> WishList { get; set; }
     }
 }
