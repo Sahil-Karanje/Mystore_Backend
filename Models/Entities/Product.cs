@@ -33,7 +33,7 @@ namespace server.Models.Entities
         public string Category { get; set; }
 
         [MaxLength(255)]
-        public string ImageUrl { get; set; }
+        public string? ImageUrl { get; set; }
 
         public bool IsActive { get; set; } = true;
 
@@ -45,5 +45,6 @@ namespace server.Models.Entities
         public double? AverageRating { get; set; }  
 
         public int? RatingCount { get; set; }  
+        public string? SellerName { get; set; }  
     }
 }

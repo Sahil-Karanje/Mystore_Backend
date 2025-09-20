@@ -22,6 +22,15 @@ namespace server.Controllers
             if (product == null)
                 return BadRequest("Product data is required");
 
+            if (string.IsNullOrWhiteSpace(product.SellerName))
+                return BadRequest("SellerName is required");
+
+            var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+            var ext = Path.GetExtension(imageFile.FileName).ToLowerInvariant();
+
+            if (!allowedExtensions.Contains(ext))
+                return BadRequest("Invalid file type");
+
             if (imageFile != null && imageFile.Length > 0)
             {
                 var uploads = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/ProductImages");

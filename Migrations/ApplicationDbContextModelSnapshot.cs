@@ -246,6 +246,30 @@ namespace server.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("server.Models.Entities.Cart", b =>
+                {
+                    b.Property<int>("CartID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("CartID"));
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("varchar(255)");
+
+                    b.HasKey("CartID");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("carts");
+                });
+
             modelBuilder.Entity("server.Models.Entities.Product", b =>
                 {
                     b.Property<int>("ProductId")
@@ -274,7 +298,6 @@ namespace server.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("ImageUrl")
-                        .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("varchar(255)");
 
@@ -295,6 +318,9 @@ namespace server.Migrations
 
                     b.Property<int?>("RatingCount")
                         .HasColumnType("int");
+
+                    b.Property<string>("SellerName")
+                        .HasColumnType("longtext");
 
                     b.Property<string>("ShortDescription")
                         .IsRequired()
@@ -368,6 +394,30 @@ namespace server.Migrations
                     b.ToTable("WishList");
                 });
 
+            modelBuilder.Entity("server.Models.Entities.YourOrders", b =>
+                {
+                    b.Property<int>("YourOrderID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("YourOrderID"));
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("varchar(255)");
+
+                    b.HasKey("YourOrderID");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("YourOrders");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -419,6 +469,25 @@ namespace server.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("server.Models.Entities.Cart", b =>
+                {
+                    b.HasOne("server.Models.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("server.Models.Entities.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("server.Models.Entities.Review", b =>
                 {
                     b.HasOne("server.Models.Entities.Product", "Product")
@@ -431,6 +500,25 @@ namespace server.Migrations
                 });
 
             modelBuilder.Entity("server.Models.Entities.WishList", b =>
+                {
+                    b.HasOne("server.Models.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("server.Models.Entities.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("server.Models.Entities.YourOrders", b =>
                 {
                     b.HasOne("server.Models.Entities.Product", "Product")
                         .WithMany()

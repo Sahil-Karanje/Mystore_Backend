@@ -61,6 +61,21 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\ProductImages\64413a22-5872-4bf6-bf50-b992498013f5.jpg
+wwwroot\ProductImages\3cd134f2-3f64-4666-8fb8-18ba4c597490.jpg
+wwwroot\ProductImages\70e5ec51-cf51-456b-8dee-9d8dbbabc08b.jpg
+wwwroot\ProductImages\934d9868-f728-408f-bdb4-ad58fa67086f.jpg
+wwwroot\ProductImages\98f34f27-f605-4330-9bce-da99751d49d9.jpg
+wwwroot\ProductImages\192a6d87-f47d-4285-bdd8-463d72266a3a.jpg
+wwwroot\ProductImages\c22aca06-1728-441a-b215-151e1eb03623.jpg
+wwwroot\ProductImages\2e8dbf79-9482-4b73-a61f-dbe3c9c4f959.jpg
+wwwroot\ProductImages\54010f33-f764-47ce-9430-182340ea6569.jpg
+wwwroot\ProductImages\e24b15af-8ce1-4311-b175-bc03ae6e29bb.jpg
+wwwroot\ProductImages\eab7a562-1f63-4320-a25d-8b87cae13e54.jpg
+wwwroot\ProductImages\e20111b3-02e1-40fb-824e-fec35fb9cd68.jpg
+wwwroot\ProductImages\429ba32d-28da-49cb-a883-23cbd8b70841.jpg
+wwwroot\ProductImages\1c60cfc8-4606-45cf-b0fd-00363561eb41.jpg
+wwwroot\ProductImages\7cc3ef60-bf9a-40cd-baea-6817e8774dd0.jpg
 C:\Users\Sahil Karanje\Desktop\DOT_NET Projects\Ecommerce\server\wwwroot\css\site.css
 C:\Users\Sahil Karanje\Desktop\DOT_NET Projects\Ecommerce\server\wwwroot\favicon.ico
 C:\Users\Sahil Karanje\Desktop\DOT_NET Projects\Ecommerce\server\wwwroot\js\site.js

@@ -89,6 +89,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "server.Controllers.CartController",
+    "Method": "GetCartList",
+    "RelativePath": "api/Cart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "server.Controllers.CartController",
+    "Method": "AddToCart",
+    "RelativePath": "api/Cart/add/{productId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "server.Controllers.CartController",
+    "Method": "RemoveFromCart",
+    "RelativePath": "api/Cart/remove/{productId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "server.Controllers.ProductController",
     "Method": "GetProductById",
     "RelativePath": "api/Product/{id}",
@@ -188,6 +230,11 @@
         "IsRequired": false
       },
       {
+        "Name": "SellerName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "ContentType",
         "Type": "System.String",
         "IsRequired": false
@@ -283,6 +330,32 @@
     "Method": "RemoveFromWishlist",
     "RelativePath": "api/WishList/remove/{productId}",
     "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "server.Controllers.YourOrderController",
+    "Method": "GetUserOrderlist",
+    "RelativePath": "api/YourOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "server.Controllers.YourOrderController",
+    "Method": "AddToOrderlist",
+    "RelativePath": "api/YourOrder/add/{productId}",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [

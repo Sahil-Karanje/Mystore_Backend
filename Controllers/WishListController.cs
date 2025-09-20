@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using server.Data;
-using server.Models;
 using server.Models.Entities;
 using System;
 using System.Security.Claims;
